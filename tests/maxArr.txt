@@ -1,0 +1,19 @@
+inicio
+variaveis:
+int max
+int tmp
+int i = 0
+int n = 12
+int a = [16,3,8,32,10,42,87,92,16,17,22,34]
+codigo:
+enquanto(i < n) faz {
+    tmp = a[i]
+    se(tmp >= max) {
+        max = tmp
+    } 
+    casocontrario {}
+    i = i + 1
+}
+escreve("O valor maximo do array é: ")
+escreve(max)
+fim

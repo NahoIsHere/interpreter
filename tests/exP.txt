@@ -1,0 +1,25 @@
+inicio
+variaveis:
+int p
+int x = 2
+int y 
+int z = 1
+codigo:
+y = x * (2*z)
+z = y + (x / 2) * 4
+p = x * y * z + 4
+se ( x < 8 e y > 1 ) {
+    x = x + 1
+}
+casocontrario {
+    x = x - 1
+} 
+escreve("O valor de x é: ")
+escreve(x)
+escreve("\n O valor de y é : ")
+escreve(y)
+escreve("\n O valor de z é : ")
+escreve(z)
+escreve("\n O valor de p é : ")
+escreve(p)
+fim

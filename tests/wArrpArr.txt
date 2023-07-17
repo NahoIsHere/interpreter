@@ -1,0 +1,24 @@
+inicio
+variaveis:
+int a[5]
+int n = 5
+int i = 0
+int tmp
+codigo:
+enquanto(i < n) faz {
+    tmp = le()
+    a[i] = tmp
+    i = i + 1
+}
+i = 0
+escreve("Os valores do array são: [")
+enquanto(i < n) faz {
+    escreve(a[i])
+    se(i < (n - 1)) {
+        escreve(",")
+    }
+    casocontrario {}
+    i = i+1
+}
+escreve("]")
+fim
